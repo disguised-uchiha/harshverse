@@ -3,7 +3,7 @@ import { ModuleFederationConfig } from '@nx/module-federation';
 const config: ModuleFederationConfig = {
   name: 'checkout',
   exposes: {
-    './Module': './src/remote-entry.ts',
+    './CheckoutModule': './src/remote-entry.ts',
   },
 };
 

@@ -2,8 +2,8 @@ import * as React from 'react';
 import NxWelcome from './nx-welcome';
 import { Link, Route, Routes } from 'react-router-dom';
 
-const Product = React.lazy(() => import('product/Module'));
-const Checkout = React.lazy(() => import('checkout/Module'));
+const Product = React.lazy(() => import('product/ProductModule'));
+const Checkout = React.lazy(() => import('checkout/CheckoutModule'));
 
 export function App() {
   return (
